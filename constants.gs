@@ -1,4 +1,5 @@
-const OPEN_WEATHER_MAP_API_KEY = LandGasterId.WMDS_OPEN_WEATHER_MAP_API_KEY();
+let idClass = LandGasterId.createClassForWardrobeMasterDbSheet();
+const OPEN_WEATHER_MAP_API_KEY = idClass.WMDS_OPEN_WEATHER_MAP_API_KEY();
 const OPEN_WEATHER_MAP_ENDPOINT = "http://api.openweathermap.org/data/2.5/forecast";
 
 const SHEET_NAME_1ST = 'wardrobes👘';
